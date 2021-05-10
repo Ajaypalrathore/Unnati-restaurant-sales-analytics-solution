@@ -1,0 +1,101 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:transparent;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    float: right;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color:transparent;
+  }
+li a{ display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+     background-color: #111;
+}
+  body{
+      background-image: url('hand.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      background-color: #664ed1;
+  }
+  .column.side {
+    width: 30%;
+    font-size: 50px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+    background-color: transparent;
+    color:aliceblue
+  }
+
+  .button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0f024b;
+    border: none;
+    border-radius: 15px;
+  }
+.navbar-brand{
+    cursor: pointer;
+    float:left;
+    width: 33%;
+    background-color:transparent;
+  }
+.navbar-menu{
+      margin-top: 60px;
+      font-size: 25px;
+      cursor:pointer;
+      float:right;
+      width: 67%;
+      background-color:transparent;
+      
+}
+.header{
+  background-color:transparent;
+  padding: 10px;
+}
+.row{
+    margin-top: 300px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
