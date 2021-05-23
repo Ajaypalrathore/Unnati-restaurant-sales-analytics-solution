@@ -24,12 +24,13 @@ li a:hover {
      background-color: #111;
 }
   body{
-      background-image: url('hand.png');
+      background-image: url('magnifying.png');
       background-repeat: no-repeat;
       background-attachment: fixed;  
-      background-size: cover;
+      background-size: 50%;
       background-color: #664ed1;
-      background-position-x: 100px;
+      background-position-x: 700px;
+      background-position-y: 120px;
   }
   .column.side {
     width: 30%;
@@ -76,30 +77,6 @@ li a:hover {
 .row{
     margin-top: 300px;
 }
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  body{
-    margin-left: 5%;
-  }
+body{
+  margin-left: 5%;
+}

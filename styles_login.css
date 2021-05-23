@@ -1,0 +1,84 @@
+
+      html, body {
+            display: flex;
+            justify-content: center;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 14px;
+            background-color: #664ed1;
+            margin: 3% auto;
+      }
+
+      form {
+            border: 5px solid #f1f1f1;
+            background: #fff;
+      } 
+
+      input[type=text], input[type=password] {
+            width: 100%;
+            padding: 16px 8px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            color: #666;
+      }
+      label{
+          color: #666;
+      }
+
+      .button {
+            background-color: #669999;
+            color: white;
+            padding: 14px 0;
+            margin: 10px 0;
+            border: none;
+            font-size: 16px;
+
+            border-radius: 5px; 
+            cursor: grabbing;
+            width: 100%;
+      }
+
+      h1 {
+            text-align:center;
+            font-size:18;
+            position: relative;
+            left: 12rem;
+            top: 1.5rem;
+            color: #fff;
+      }
+
+      button:hover {
+            opacity: 0.8;
+      }
+
+      .banner{
+       
+        height: 100px;
+        background-color: rgb(39, 33, 33);
+        text-align: center;
+        display: flex;
+      }
+
+      .formcontainer {
+            text-align: left;
+            margin: 24px 50px 12px;
+      }
+
+      .container {
+            padding: 16px 0;
+            text-align:left;
+      }
+
+      span.psw {
+            float: right;
+            padding-top: 0;
+            padding-right: 15px;
+      }
+
+      /* Change styles for span on extra small screens */
+      @media screen and (max-width: 300px) {
+      span.psw {
+      display: block;
+      float: none;
+      }

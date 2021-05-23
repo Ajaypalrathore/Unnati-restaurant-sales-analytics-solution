@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles_login.css">
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <div class="banner">
+        <h1>Login, and let's begin</h1>
+      </div>
+      <div class="formcontainer">
+      <hr/>
+      <div class="container">
+        <label for="email"><strong>email</strong></label>
+        <input type="text"  name="email" required>
+        <label for="psw"><strong>Password</strong></label>
+        <input type="password"  name="psw" required>
+      </div>
+      <a class="button" href="getdata.html"><span>Login</span></a>
+      <div class="container" style="background-color: #eee">
+        <label style="padding-left: 15px">
+        <input type="checkbox"  checked="checked" name="remember"> Remember me
+        </label>
+        <span class="psw"><a href="#"> Forgot password?</a></span>
+      </div>
+    </form>
+  </body>
+</html>
