@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <title>Unnati-Coupon Analytics</title>
+    <link rel="icon" href="logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+</head>
+<body> 
+    <header class="header">
+        <div class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="logo" class="img-fluid" height="200px" width="200px">
+    </div>
+        <ul class="navbar-menu">
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="index.html"> Home</a></li>
+        </ul>
+   </div>
+    </header>
+        <div class="row">
+            <div class="container">
+                <form method="POST", action="{{url_for{'home"}}}>
+                    <label><b>Duration of coupon</b></label>
+                    <input type="text" placeholder="Duration of coupon" name="dur" required>
+                    <br>
+                    <label><b>Difficulty</b></label>
+                    <input type="text" placeholder="Difficulty" name="dif" required>
+                    <br>
+                    <label><b>Reward</b></label>
+                    <input type="text" placeholder="Duration of coupon" name="rew" required>
+                    <br>
+                    <label><b>Total amount of transaction</b></label>
+                    <input type="text" placeholder="Total amount of transaction" name="tot" required>
+                    <br>
+                    <label><b>Age</b></label>
+                    <input type="text" placeholder="should be range 0-10,10-20,20-30.. upto 90s" name="age" required>
+                    <br>
+                    <label><b>Sex</b></label>
+                    <input type="text" placeholder="" name="mal" required>
+                    <br>
+                    <input type="submit" , value ="predict">
+            </form>
+            </div>
+            </div>
+          </div>
+</body>
+</html>

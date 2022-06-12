@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <title>Unnati-Coupon Analytics</title>
+    <link rel="icon" href="logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+</head>
+<body> 
+    <header class="header">
+        <div class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="logo" class="img-fluid" height="200px" width="200px">
+    </div>
+        <ul class="navbar-menu">
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="index.html"> Home</a></li>
+        </ul>
+   </div>
+    </header>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="column side" >The probability of transaction using this coupon is</div>
+                    {%if data == 0%}
+                    <h1>Low</h1>  
+                    <img src='static\setosa.jpg'>  
+
+                    {%else%}
+                    <h1>High</h1>
+                    <img src='static\verci.jpg'>
+    
+                    {%endif%}
+
+                     <br><br>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
